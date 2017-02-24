@@ -242,7 +242,7 @@ function addAsesor(req, res) {
 function indexRequest(req, res) {
     res.status(200).send({
         cod: 1,
-        msg: "Correcto 2"
+        msg: "Funcionó"
     });
 }
 
