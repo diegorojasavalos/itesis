@@ -242,11 +242,7 @@ function addAsesor(req, res) {
 function indexRequest(req, res) {
     res.status(200).send({
         cod: 1,
-<<<<<<< HEAD
         msg: "Hola flaquita"
-=======
-        msg: "Funcionó"
->>>>>>> b14f1a1baa84dd96cdf42d51bb82e6683e06ccd4
     });
 }
 
