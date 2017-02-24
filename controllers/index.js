@@ -1,4 +1,4 @@
-'use strict'
+﻿'use strict'
 const auth = require("../auth/auth");
 const itesis = require("../model/itesis");
 const config = require("../config/config.json");
@@ -242,7 +242,7 @@ function addAsesor(req, res) {
 function indexRequest(req, res) {
     res.status(200).send({
         cod: 1,
-        msg: "Hola flaquita"
+        msg: "Hola Profe"
     });
 }
 
